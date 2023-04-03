@@ -11,21 +11,13 @@ from users.models import User
 
 from .filtersets import TitleFilter
 from .mixins import ViewSetMixin
-from .permissions import IsAdminOrReadOnly
-from .permissions import IsAdmin
-from .permissions import IsAuthorOrModeratorOrAdminOrReadOnly
-from .serializers import (
-    CategorySerializer,
-    CommentSerializer,
-    GenreSerializer,
-    ReadTitleSerializer,
-    ReviewSerializer,
-    TitleCreateSerializer,
-    UserSignupSerializer,
-    UserPatchSerializer,
-    UserTokenSerializer,
-    UserSerializer,
-)
+from .permissions import (IsAdmin, IsAdminOrReadOnly,
+                          IsAuthorOrModeratorOrAdminOrReadOnly)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, ReadTitleSerializer,
+                          ReviewSerializer, TitleCreateSerializer,
+                          UserPatchSerializer, UserSerializer,
+                          UserSignupSerializer, UserTokenSerializer)
 from .utils import send_mail_to_user
 
 
