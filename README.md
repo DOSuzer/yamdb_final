@@ -1,4 +1,5 @@
 ![example workflow](https://github.com/dosuzer/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 Server IP: 158.160.30.120
 
 ### Описание
