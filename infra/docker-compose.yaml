@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: dosuzer/api_yamdb
+    image: dosuzer/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
